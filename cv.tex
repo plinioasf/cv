@@ -5,52 +5,74 @@
 
 %%% fontes %%%
 \usepackage[utf8]{inputenc}
-\usepackage[scale=0.75]{geometry} % Reduce document margins
+\usepackage[scale=0.8]{geometry} % Reduce document margins
 
 \firstname{Plinio}
 \familyname{Freire}
-\title{}
+\title{Software Engineer}
 \phone{+55 19 99839-5045}
 \email{plinio.freire@gmail.com}
 
-
+\nopagenumbers{}
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
 \begin{document}
 \makecvtitle
 
-\section{\textsc{Informações Pessoais}}
-\cvitem{Nome}{Plinio Augusto Soriano Freire}
-\cvitem{Nascimento}{20 de abril de 1990}
-\cvitem{Cidade}{Campinas - SP}
-\cvitem{Nacionalidade}{Brasileira}
-\cvitem{Estado civil}{Solteiro}
+%\section{\textsc{Informações Pessoais}}
+%\cvitem{Nome}{Plinio Augusto Soriano Freire}
+%\cvitem{Nascimento}{20 de abril de 1990}
+%\cvitem{Cidade}{Campinas - SP}
+%\cvitem{Nacionalidade}{Brasileira}
+%\cvitem{Estado civil}{Solteiro}
 
-\section{\textsc{Formação Academica}}
-\cventry{2008 -- Atual}{Graduação em Engenharia de Computação}{UNICAMP}{Campinas - SP}{}
-{- Conclusão: dezembro de 2012.}{\hspace{\fill}}
+\section{\textsc{Technical skills}}
+\cvline{Infrastructure}{\small{AWS, Data centers, Networking, QEMU/KVM, Containers}}
+\cvline{OS}{\small{Any Linux distribution}}
+\cvline{General tools}{\small{Tomcat, Apache, Nginx, Postfix, Cyrus IMAP, Mailman, ProFTP, NTP, DHCP, DNS, iptables, monit, nagios and so many more}}
+\cvline{Programming}{\small{Bash, Python, PHP, Ruby, Java, Perl, C, Javascript}}
+\cvline{Frameworks}{\small{Django, Rails, Pear, Jquery}}
+\cvline{Database}{\small{MySQL, PostgreSQL}}
+\cvline{SCM}{\small{Git}}
+\cvline{Automation}{\small{Jenkins, Puppet, Gerrit, Robot Framework}}
 
-\section{\textsc{Conhecimentos em Computação}}
-\cvcomputer{SO}{Windows, Linux e Android}{}{}
-\cvcomputer{Linguagens de Programação}{Avançado: C, Java \newline
-                                       Intermediário: VHDL, PHP \newline
-                                       Básico: Shell script, Python \newline}{}{}
-\cvcomputer{Banco de dados} {Avançado: SQL}{}{}
-\cvcomputer{Ferramentas}{\textit{Microsoft Word}: Avançado \newline
-                         \textit{Microsoft Excel}: Avançado \newline
-                         \textit{Microsoft PowerPoint}: Avançado }{}{}
+\section{\textsc{Languages}}
+\cvlanguage{English}{Fluen}{Full professional proficiency}
+\cvlanguage{Portuguese}{Native}{Native proficiency}
 
-\section{\textsc{Idiomas}}
-\cvlanguage{Inglês}{Avançado}{}{}
-\cvlanguage{Francês}{Básico}{}{}
 
-\section{\textsc{Cursos e certificações}}
-\cventry{2011}{Plataforma Android: Arquitetura, principais componentes e como contruir um aplicativo desde o início}{Instituto de Pesquisa Eldorado em parceria com o Programa MOTODEV da Motorola}{Carga horária: 12h}{}{}
-\cventry{2009}{Curso de línguas CAFEQ, Francês I e II}{UNICAMP}{Campinas - SP}{}{}{}
-\cventry{1998 -- 2006}{Curso de inglês ICBEU}{São José dos Campos - SP}{\textit{http://www.icbeusjc.com.br}}{} 
-{Basic level: de 08/1998 a 07/2003, Grade: 85\% \newline
-Advanced level: de 08/2003 a 07/2006, Grade 81\%}{}
+\section{Experience}
+\cventry{\scriptsize 01/2013 -- Current}{System Administrator | Software Engineer}{IBM}{}{}{
+    The {\color{blue}\href{http://www-03.ibm.com/linux/ltc/index.html}{IBM Linux Technology Center}} is the IBM open source development branch.\newline
+    Development and maintenance of code and applications, system administration, client support.\newline
+    I have worked with mailing infrastructure, infrastructure for content management and distribution, web development, web servers, code hosting servers (Git, SVN, CVS), technical relationship with Linux distributions, application debugging and bugfixes, performance improvement, automated provisioning systems, automated builds, and all sort of processes and tools to handle LTC Infrastructure.\newline
+   Architecture and planning of new solutions and tools migration are included.\newline
+   Specifics about technical skills are described on section "Technical Skills".\newline
+}
+\cventry{\scriptsize 01/2012 -- 12/2012}{Intern}{IBM}{}{} {
+    Development of a Software Development Kit based on Eclipse.
+}
 
+\section{Education}
+\cventry{2008 -- 2012}{Bachelor of Science in Computer Engineering}{State University of Campinas (UNICAMP)}{Campinas - SP}{}{}
+
+\section{Awards, Certifications and Associations}
+\cvline{}{- 2016 Patent File Award}
+\cvline{}{- 2015 Patent File Award}
+\cvline{}{- 2014 IBM Manager’s Choice Award}
+\cvline{}{- Linux Professional Institute Level 1 certified}{}{}
+\cvline{}{- Novell Certified Linux Administrator}{}{}
+
+\section{Patents}
+\cvline{}{- Container VMzation based on monitoring rule, \textbf{status:} Filled}
+\cvline{}{- Method for malware identification and efficient fix over a segregated domains in a cloud, \textbf{status:} Filled}
+\cvline{}{- An efficient massive deploy system on cloud using a distributed protocol, \textbf{status:} Publish}
+
+\section{Personal skills}
+\cvline{}{Self-taught: There are nothing that reading and research do not solve}{}{}
+\cvline{}{Pro-active, responsible, easy going person. I like to learn and to give back.}{}{}
+\cvline{}{Used to open source community communication ways: IRC, mailing lists, tracking tools, etc}{}{}
+\cvline{}{I'm available for relocation and international travel}
 
 \end{document}
